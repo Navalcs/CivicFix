@@ -1,0 +1,38 @@
+
+# Dependencies
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Environment variables - NEVER UPLOAD
+.env
+.env.*
+!.env.example
+
+# API keys and secrets
+*.pem
+*.key
+*.p12
+*.p8
+*.jks
+
+# Logs
+*.log
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# TypeScript
+*.tsbuildinfo
+
+# Generated native folders
+/ios
+/android
